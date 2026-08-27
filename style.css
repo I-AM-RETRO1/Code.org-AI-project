@@ -1,5 +1,6 @@
 body {
     background: black;
+    color:aliceblue;
 }
 
 #phone-frame {
@@ -20,4 +21,5 @@ body {
     background-color: black;
     width: 95%;
     height: 80%;
+    padding: 10px;
 }
