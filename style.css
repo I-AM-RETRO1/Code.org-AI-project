@@ -1,6 +1,6 @@
 body {
     background: black;
-    color:aliceblue;
+    color: aliceblue;
 }
 
 #phone-frame {
@@ -10,14 +10,12 @@ body {
     background: grey;
     width: 100vw;
     max-width: 500px;
-    max-height: auto;
     min-height: 0px;
     border-radius: 50px;
     aspect-ratio: 10 / 16;
 }
 
 #phone-screen {
-    margin: 100pxd;
     background-color: black;
     width: 95%;
     height: 80%;

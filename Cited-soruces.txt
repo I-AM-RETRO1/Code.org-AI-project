@@ -1,0 +1,7 @@
+palantir logo: https://mma.prnewswire.com/media/1914914/Palantir_Technologies_Logo.jpg
+favicon: https://www.eff.org/files/banner_library/palantir-logo-eye.png
+Alex Karp: https://image.cnbcfm.com/api/v1/image/105694852-1548253175041palantirceo02.jpg?v=1579785329
+Peter Thie: https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2264891847.jpg?c=original&q=w_860,c_fill
+Peter Thiel and Elon: https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/1/4/1420377537314/a726e764-3461-4f58-ac04-aa889170b195-1020x612.jpeg?width=465&dpr=1&s=none&crop=none
+Peter Thiel and Trump: https://img.lemde.fr/2025/07/17/0/1218/2604/2604/575/575/75/0/d110e5c_upload-1-o8fb0q5dicvg-063-629843762.jpg
+
