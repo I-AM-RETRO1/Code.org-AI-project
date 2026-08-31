@@ -2,6 +2,7 @@
     --title-bg: blue;
     --heading-bg: skyblue;
     --global-margin: 5px;
+    --default-bg: grey;
     --authors-bg: lightblue;
     --text-color: aliceblue;
     --button-bg: red;
@@ -92,4 +93,14 @@ body {
     text-align: center;
     text-decoration: none;
     font-size: 20px;
+}
+
+.container {
+    background-color: var(--default-bg);
+    padding: 15px;
+    margin: var(--global-margin);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

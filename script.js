@@ -1,2 +1,2 @@
-let learnBtn = getElementById(learnBtn)
-let quizBtn = getElementById(quizBtn)
+let learnBtn = document.getElementById(learnBtn)
+let quizBtn = document.getElementById(quizBtn)
