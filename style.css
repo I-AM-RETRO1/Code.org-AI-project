@@ -12,6 +12,7 @@
 body {
     background: black;
     color: var(--text-color);
+    overflow: hidden;
 }
 
 #phone-frame {
@@ -31,6 +32,7 @@ body {
     width: 95%;
     height: 80%;
     padding: 10px;
+    overflow-y: auto;
 }
 
 .button {
@@ -103,4 +105,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+iframe {
+    border-radius: 5px;
 }
