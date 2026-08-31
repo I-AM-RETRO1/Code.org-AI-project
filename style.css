@@ -41,7 +41,7 @@ body {
     border-radius: 10px;
     color: var(--text-color);
     padding: 10px 20px;
-    margin: var(--global-margin);
+    margin: 2px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -52,16 +52,16 @@ body {
 .button:hover {
     background-color: var(--button-hover-bg);
     border: none;
-    border-radius: 10px;
+    border-radius: 15px;
     color: var(--text-color);
     padding: 15px 25px;
-    margin: var(--global-margin);
+    margin-top: 2px 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
-    transition: 0.2.5s;
+    transition: 0.15s;
 }
 
 .title {
@@ -69,7 +69,7 @@ body {
     border-radius: 20px;
     color: var(--text-color);
     padding: 10px 20px;
-    margin: var(--global-margin);
+    margin: 5px;
     text-align: center;
     text-decoration: none;
     font-size: 40px;
@@ -80,7 +80,7 @@ body {
     border-radius: 20px;
     color: var(--text-color);
     padding: 10px 20px;
-    margin: var(--global-margin);
+    margin: 5px;
     text-align: center;
     text-decoration: none;
     font-size: 30px;
@@ -91,7 +91,7 @@ body {
     border-radius: 20px;
     color: var(--text-color);
     padding: 10px 20px;
-    margin: var(--global-margin);
+    margin: 5px;
     text-align: center;
     text-decoration: none;
     font-size: 20px;
@@ -100,7 +100,7 @@ body {
 .container {
     background-color: var(--default-bg);
     padding: 15px;
-    margin: var(--global-margin);
+    margin: 5px;
     border-radius: 20px;
     display: flex;
     justify-content: center;
@@ -109,4 +109,8 @@ body {
 
 iframe {
     border-radius: 5px;
+}
+
+#button-container {
+    padding: 6px;
 }
