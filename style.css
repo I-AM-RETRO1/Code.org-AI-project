@@ -47,6 +47,7 @@ body {
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
+    transition: 0.15s;
 }
 
 .button:hover {
@@ -61,7 +62,6 @@ body {
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
-    transition: 0.15s;
 }
 
 .title {
