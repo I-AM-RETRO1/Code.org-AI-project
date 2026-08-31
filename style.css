@@ -1,5 +1,8 @@
 :root {
     --title-bg: blue;
+    --heading-bg: skyblue;
+    --global-margin: 5px;
+    --authors-bg: lightblue;
     --text-color: aliceblue;
     --button-bg: red;
     --button-hover-bg: orange;
@@ -35,7 +38,7 @@ body {
     border-radius: 10px;
     color: var(--text-color);
     padding: 10px 20px;
-    margin: 5px;
+    margin: var(--global-margin);
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -49,7 +52,7 @@ body {
     border-radius: 10px;
     color: var(--text-color);
     padding: 15px 25px;
-    margin: 5px;
+    margin: var(--global-margin);
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -63,8 +66,30 @@ body {
     border-radius: 20px;
     color: var(--text-color);
     padding: 10px 20px;
-    margin: 5px;
+    margin: var(--global-margin);
     text-align: center;
     text-decoration: none;
     font-size: 40px;
+}
+
+.heading {
+    background-color: var(--heading-bg);
+    border-radius: 20px;
+    color: var(--text-color);
+    padding: 10px 20px;
+    margin: var(--global-margin);
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+#authors {
+    background-color: var(--authors-bg);
+    border-radius: 20px;
+    color: var(--text-color);
+    padding: 10px 20px;
+    margin: var(--global-margin);
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
 }
