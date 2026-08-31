@@ -2,11 +2,11 @@
     --title-bg: blue;
     --heading-bg: skyblue;
     --global-margin: 5px;
-    --default-bg: grey;
+    --default-bg: rgba(226, 226, 226, 0.454);
     --authors-bg: lightblue;
     --text-color: aliceblue;
-    --button-bg: red;
-    --button-hover-bg: orange;
+    --button-bg: rgba(255, 0, 0, 0.778);
+    --button-hover-bg: rgba(255, 166, 0, 0.898);
 }
 
 body {
@@ -113,4 +113,23 @@ iframe {
 
 #button-container {
     padding: 6px;
+    position: fixed;
+    z-index: 1000;
+    background-color: var(--default-bg);
+    margin: auto;
+}
+
+#quiz {
+    background-color: var(--default-bg);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+#submit {
+    background-color: lightblue;
+    border-radius: 10px;
+    margin: auto;
 }
