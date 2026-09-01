@@ -1,12 +1,12 @@
 :root {
-    --title-bg: blue;
-    --heading-bg: skyblue;
+    --title-bg: #aea4bfdb;
+    --heading-bg: #ac9cc9db;
     --global-margin: 5px;
-    --default-bg: rgba(226, 226, 226, 0.454);
+    --default-bg: #aea4bfdb;
     --authors-bg: lightblue;
     --text-color: aliceblue;
-    --button-bg: rgba(255, 0, 0, 0.778);
-    --button-hover-bg: rgba(255, 166, 0, 0.898);
+    --button-bg: #8f6593ed;
+    --button-hover-bg: #755079ed;
 }
 
 body {
@@ -28,7 +28,7 @@ body {
 }
 
 #phone-screen {
-    background-color: black;
+    background-color: #3B252C;
     width: 95%;
     height: 80%;
     padding: 10px;
@@ -102,7 +102,6 @@ body {
     padding: 15px;
     margin: 5px;
     border-radius: 20px;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -133,7 +132,6 @@ iframe {
     justify-content: center;
     align-items: center;
 }
-/* fixed formatting issues */
 #submit {
     background-color: lightblue;
     border-radius: 10px;
