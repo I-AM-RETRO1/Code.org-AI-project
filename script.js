@@ -10,7 +10,7 @@ const resultText = document.getElementById('result')
 const submitBtn = document.getElementById('submit')
 
 const answerKey = [
-    "a1",
+    "a2",
     "a2",
     "a1",
 ]
