@@ -81,7 +81,7 @@ body {
     color: var(--text-color);
     padding: 10px 20px;
     margin: 5px;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     font-size: 30px;
 }
@@ -103,8 +103,14 @@ body {
     margin: 5px;
     border-radius: 20px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+}
+
+.container p {
+    line-height: 1.5;
+    margin: 10px 0;
 }
 
 iframe {
@@ -127,7 +133,7 @@ iframe {
     justify-content: center;
     align-items: center;
 }
-
+/* fixed formatting issues */
 #submit {
     background-color: lightblue;
     border-radius: 10px;
