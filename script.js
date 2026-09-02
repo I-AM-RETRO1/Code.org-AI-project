@@ -1,4 +1,8 @@
 const quiz = document.querySelector("fieldset")
+const correct = new Audio("/audio/correct.mp3")
+const incorrect = new Audio("/audio/incorrect.mp3")
+const click = new Audio("/audio/click.mp3")
+
 
 const answers = [
     document.getElementsByName('q1'), 
@@ -15,26 +19,33 @@ const answerKey = [
     "a1",
 ]
 
-submitBtn.addEventListener('click', function() {
-    let score = 0
+if(window.location.pathname === "/quiz/q1.html") {
+    submitBtn.addEventListener('click', function() {
+        let score = 0
 
-    quiz.disabled = true
+        quiz.disabled = true
 
-    for (let qIndex = 0; qIndex < answers.length; qIndex++) {
-        const radioGroup = answers[qIndex]
-        let userAnswer = null
+        for (let qIndex = 0; qIndex < answers.length; qIndex++) {
+            const radioGroup = answers[qIndex]
+            let userAnswer = null
 
-        for (let i = 0; i < radioGroup.length; i++) {
-            if (radioGroup[i].checked) {
-                userAnswer = radioGroup[i].value
-                break
+            for (let i = 0; i < radioGroup.length; i++) {
+                if (radioGroup[i].checked) {
+                    userAnswer = radioGroup[i].value
+                    break
+                }
+            }
+
+            if (userAnswer === answerKey[qIndex]) {
+                score++;
             }
         }
 
-        if (userAnswer === answerKey[qIndex]) {
-            score++;
-        }
-    }
+        resultText.textContent = `Your score is: ${score} / ${answerKey.length}`
+        if(score <= 1) incorrect.play(); else correct.play()
+    })
+}
 
-    resultText.textContent = `Your score is: ${score} / ${answerKey.length}`;
+document.getElementById("phone-frame").addEventListener('click', function() {
+    click.play()
 })
